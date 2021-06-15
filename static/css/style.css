@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(255, 0, 0);
+}
+.nav {
+    
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#navigation {
+    height: 1000px;
+
+}
+.section {
+    height: 1000px;
+    padding-top: 10px;
+}
