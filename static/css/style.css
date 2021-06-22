@@ -1,21 +1,88 @@
 html {
     scroll-behavior: smooth;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
 }
 
 body {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(252, 241, 241);
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.nav {
-    
-    font-weight: bold;
-    font-size: 20px;
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  border-radius: 50%;
+   
 }
+
 
 #navigation {
-    height: 1000px;
+    height: 500px;
+    text-decoration: none;
+    text-align: center;
+    
+
 
 }
+ul {
+    text-align: center;
+    list-style: none;
+
+}
+#navigation li a:hover {
+    color: rgb(246, 246, 252);
+}
+
+
+#navigation li a{  
+    
+    background-color: #c3c7c3; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 35px;
+    margin-top: 3px;
+    margin-right: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
+    text-decoration: none;
+    
+
+}
+   #konlist li a{
+ 
+       font-size: 18px;
+       color: black;
+       text-decoration: none;
+
+   }
+   #konlist li a:hover{
+       color: rgb(158, 156, 154);
+   }
+ 
 .section {
-    height: 1000px;
+    text-align: center;
+    height: 500px;
     padding-top: 10px;
+    text-decoration: none;
+}
+#portfolio a {
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
